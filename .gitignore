@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.projetosaude/
+.venv/
+
+# VS Code
+.vscode/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Python environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Jupyter (caso use para testes com pandas)
+.ipynb_checkpoints/
+
+# Plotly/Dash cache
+__dash_cache__/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Migrations (se quiser ignorar)
+# **/migrations/*.py
+# **/migrations/__pycache__/
+
+# Pytest
+.pytest_cache/
+
+/Lib
+/etc
+/include
+/share
